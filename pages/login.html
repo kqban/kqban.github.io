@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Садовый участок - Формы</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>" type="image/svg+xml">
+</head>
+<body>
+    <!-- Якорь для навигации -->
+    <div id="top" class="page-anchor"></div>
+
+    <!-- Fixed header -->
+    <header class="main-header">
+        <div class="header-content">
+            <h2>
+                <div class="logo-container">
+                    <img src="https://static.vecteezy.com/system/resources/previews/013/175/832/non_2x/green-trees-and-house-garden-icon-vector.jpg" alt="Логотип" class="logo">
+                </div>
+                Садовый участок - Формы
+            </h2>
+        </div>
+    </header>
+
+    <!-- Бургер-меню -->
+    <input type="checkbox" id="burger-toggle">
+    <label for="burger-toggle" class="burger-menu">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+    </label>
+
+    <!-- Мобильная навигация -->
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="forms.html">Регистрация</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sticky navigation -->
+    <nav class="sticky-nav">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="forms.html">Регистрация</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-wrapper">
+        <div class="main">
+            <h1>Садовод</h1>
+            <h3>Введите свои данные</h3>
+
+            <form action="">
+                <label for="first">
+                    Логин:
+                </label>
+                <input type="text" id="first" name="first" 
+                    placeholder="Введите свой логин" required>
+
+                <label for="password">
+                    Пароль:
+                </label>
+                <input type="password" id="password" name="password" 
+                    placeholder="Введите свой пароль" required>
+
+                <div class="wrap">
+                    <button type="submit">
+                        Продолжить
+                    </button>
+                </div>
+            </form>
+            
+            <p>Не зарегистрированы?
+                <a href="forms.html" style="text-decoration: none;">
+                    Создать аккаунт
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <footer id="contacts">
+        <div class="footer-content">
+            <h2>Контакты</h2>
+            <p>Если у вас есть вопросы о садоводстве, свяжитесь с нами:</p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Телефон:</strong>
+                    <a href="tel:+79689494994">+7 (968) 949 49 94</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Email:</strong>
+                    <a href="mailto:ilva2446@gmail.com">ilva2446@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>Адрес:</strong>
+                    <span>Москва, ул. Садовая, д. 15</span>
+                </div>
+            </div>
+
+            <div class="back-to-top">
+                <a href="#top" class="top-button">Вернуться наверх ↑</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Садовый участок. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script> <!-- Подключение скрипта -->
+</body>
+</html>
